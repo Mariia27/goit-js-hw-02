@@ -5,7 +5,7 @@
 //с индексом 0 будет выведено '1 - Mango', а для индекса 2 выведет '3 - Ajax'.
 
 const logItems = (array) => {
-for (let index = 0; index < array.length; index++) {
+for (let index = 0; index < array.length; index+=1) {
     const element = array.indexOf(array[index]) + 1;
     console.log(`${element} - ${array[index]}`);
 }   
