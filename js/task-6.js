@@ -13,7 +13,7 @@ const numbers = [];
 
   do {
     input = prompt('Введите число');
-    numbers.push(Number(input));
+      numbers.push(Number(input));
     } while (input !== null)
     for (const number of numbers) {
         if (numbers.length > 0) {
