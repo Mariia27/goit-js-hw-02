@@ -4,6 +4,7 @@
 //Слова в строке могут быть в произвольном регистре.
 
 const checkForSpam = (message) => {
+
     if (message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale')) {
         return true
     }
@@ -11,7 +12,7 @@ const checkForSpam = (message) => {
         return false
     }
 }
-
+ 
 
 
 //Вызовы функции для проверки работоспособности твоей реализации.
